@@ -6,7 +6,7 @@ Input React Tags
 Simple React Input Tag 1.0.0 `beta`
 
 ### Demo
-![img](demo.gif)
+![img](demo.png)
 
 ### Installation
 The preferred way of using the component is via YARN
@@ -25,13 +25,15 @@ bootstrap: ^4.5.0,
 react-dom: ^16.3.1
 ```
 
-<a name="Options"></a>
+### Delimiters
+`,`, `Enter` and remove tag with `Backspace`
+
 ### Options
 
 Option | Type | Default | Description
 --- | --- | --- | ---
-|[`values`] | `Array` | `[]` | Initial tags ​​to array
-|[`noRepeat`] | `Boolean` | `false` | Does not allow array data to be repeated
+|`values` | `Array` | `[]` | Initial tags ​​to array
+|`noRepeat` | `Boolean` | `false` | Does not allow array data to be repeated
 
 ### Contributing
 Got ideas on how to make this better? Open an issue!
