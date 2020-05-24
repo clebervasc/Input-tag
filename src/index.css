@@ -1,0 +1,65 @@
+* {
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+body {
+  background: #ccc;
+  padding: 1.25rem
+}
+
+.input-tags {
+  background: white;
+  border-radius: .25rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: .5rem;
+}
+
+.input-tags .badge-tags {
+  align-items: center;
+  display: flex;
+  margin: .1rem;
+}
+
+.input-tags button {
+  align-items: center;
+  appearance: none;
+  background: none;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: .75rem;
+  height: .9375rem;
+  justify-content: center;
+  line-height: 0;
+  margin-left: .5rem;
+  outline: none;
+  padding: 0;
+  transform: rotate(45deg);
+  transition: .3s ease;
+  width: .9375rem;
+}
+
+.input-tags button:focus {
+  outline: none;
+}
+
+.input-tags button:hover {
+  background: red;
+}
+
+.input-tags input {
+  width: auto;
+  min-width: 18.75rem;
+  flex:1;
+  flex-shrink:1;
+  outline: 0;
+  transition: border-color .3s ease-in-out;
+  width: 100%;
+  border: 0;
+}
+
