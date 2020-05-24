@@ -6,7 +6,7 @@ Input React Tags
 Simple React Input Tag 1.0.0 `beta`
 
 ### Demo
-![img](demo.png)
+![img](demo.PNG)
 
 ### Installation
 The preferred way of using the component is via YARN
